@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Milkyway';
+  src: url('../assets/fonts/Milkyway DEMO.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ThisAppeal';
+  src: url('../assets/fonts/ThisAppeal-FreeDemo.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+    font-family: 'Milkyway';
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+     -webkit-text-stroke: 1.5px white;
+}
+
+body{
+    background-color: pink;
+}
+
+.hover:hover{
+    color: rgb(244, 103, 127);
+}
+
+.corner{
+    width: 125px;
+    height: auto;
+    position: absolute;
+}
+
+.top-left{
+    top: 10px;
+    left:100px;
+    rotate: -15deg;
+}
+
+.top-right{
+    top: 10px;
+    right: 100px;
+    rotate: 15deg;
+}
+.squishy{
+    transition: transform 0.5s;
+}
+
+.squishy:hover{
+    transform: scaleY(0.65);
+}
+
+button{
+    padding: 20px;
+    background: rgb(137, 69, 80);
+    color:azure;
+    font-size: 50px;
+    font-family: 'ThisAppeal';
+    outline: auto;
+    outline-color: red;
+}
+
