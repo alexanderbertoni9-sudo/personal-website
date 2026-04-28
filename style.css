@@ -128,3 +128,16 @@ img{
     background-color: azure;
     
 }
+
+#cursor-follower{
+  position: absolute;
+  width: 70px; 
+  height: auto;
+  pointer-events: none;
+  transform: translate(-25%,-28%);
+  z-index: 9999;
+}
+
+*{
+    cursor: none;
+}
