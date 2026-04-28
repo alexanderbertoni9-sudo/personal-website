@@ -130,7 +130,7 @@ img{
 }
 
 #cursor-follower{
-  position: absolute;
+  position: fixed;
   width: 70px; 
   height: auto;
   pointer-events: none;
