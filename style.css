@@ -16,9 +16,9 @@ h1{
     font-family: 'Milkyway';
     font-size: 100px;
     text-align: center;
-    margin-top: 20px;
-    padding: 0;
-     -webkit-text-stroke: 1.5px white;
+    margin: 50px;
+    -webkit-text-stroke: 1.5px white;
+    background-color: rgb(123, 61, 71);
 }
 
 body{
@@ -55,12 +55,72 @@ body{
 }
 
 button{
-    padding: 20px;
+    width: 350px;
+    height: 350px;
     background: rgb(137, 69, 80);
     color:azure;
-    font-size: 50px;
+    font-size: 100px;
     font-family: 'ThisAppeal';
-    outline: auto;
-    outline-color: red;
+    outline: 20px solid rgb(0, 0, 0);
+    outline-offset: 0px;
+    margin: 10px;
 }
 
+.button-small{
+    width: 150px;
+    height: 50px;
+    background: rgb(137, 69, 80);
+    color:azure;
+    font-size: 30px;
+    font-family: 'ThisAppeal';
+    outline: 2.5px solid rgb(0, 0, 0);
+    outline-offset: 0px;
+    margin: 10px;
+
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.center{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.center-bottom{
+    left: 50%;
+    top: 90%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.large{
+    transition: transform ease 0.3s;
+}
+
+.large:hover{
+    transform: scale(1.4);
+}
+
+.image-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 50px;
+}
