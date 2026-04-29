@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Milkyway';
-  src: url('assets/fonts/MilkywayDEMO.ttf');
+  src: url('./assets/fonts/MilkywayDEMO.ttf');
 }
 
 @font-face {
   font-family: 'ThisAppeal';
-  src: url('assets/fonts/ThisAppeal-FreeDemo.ttf');
+  src: url('./assets/fonts/ThisAppeal-FreeDemo.ttf');
 }
 
 h1{
