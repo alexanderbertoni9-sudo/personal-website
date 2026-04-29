@@ -37,7 +37,7 @@ button{
     font-family: 'ThisAppeal';
     outline: 0.05em solid rgb(0, 0, 0);
     outline-offset: 0px;
-    margin: 10px;
+    margin: 0.1em;
 }
 
 img{
@@ -61,21 +61,21 @@ img{
 }
 
 /* 5. POSITIONING & UTILITIES */
-.corner{
-    width: 13vw;
+.bow{
+    width: 12vw;
     height: auto;
     position: absolute;
+    top: 3vh;
+
 }
 
-.top-left{
-    top: 1vw;
-    left:10vh;
+.top-left-bow{
+    left: 5vw;
     rotate: -15deg;
 }
 
-.top-right{
-    top: 1vw;
-    right: 10vh;
+.top-right-bow{
+    right: 5vw;
     rotate: 15deg;
 }
 
