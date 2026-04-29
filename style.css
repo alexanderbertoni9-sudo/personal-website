@@ -1,3 +1,4 @@
+/* 1. ASSETS & FONTS */
 @font-face {
   font-family: 'Milkyway';
   src: url('./assets/fonts/MilkywayDEMO.ttf');
@@ -8,45 +9,23 @@
   src: url('./assets/fonts/ThisAppeal-FreeDemo.ttf');
 }
 
+/* 2. GLOBAL & BODY SETTINGS */
+*{
+    cursor: none; /* Applied to everything */
+}
+
+body{
+    background-color: pink;
+    margin: 0; /* Good practice to add this */
+}
+
+/* 3. ELEMENT STYLES (Base Tags) */
 h1{
     font-family: 'Milkyway';
     font-size: 100px;
     text-align: center;
     margin: 50px;
     -webkit-text-stroke: 1.5px white;
-}
-
-body{
-    background-color: pink;
-}
-
-.hover:hover{
-    color: rgb(244, 103, 127);
-}
-
-.corner{
-    width: 125px;
-    height: auto;
-    position: absolute;
-}
-
-.top-left{
-    top: 10px;
-    left:100px;
-    rotate: -15deg;
-}
-
-.top-right{
-    top: 10px;
-    right: 100px;
-    rotate: 15deg;
-}
-.squishy{
-    transition: transform 0.5s;
-}
-
-.squishy:hover{
-    transform: scaleY(0.65);
 }
 
 button{
@@ -61,35 +40,43 @@ button{
     margin: 10px;
 }
 
-button:hover{
-    color: rgb(137, 69, 80);
-    background: azure;
-    outline: 0.1em solid rgb(0, 0, 0);
+img{
+    width: 250px;
+    height: 250px;
 }
 
-.button-small{
-    width: 150px;
-    height: 50px;
-    background: rgb(137, 69, 80);
-    color:azure;
-    font-size: 30px;
-    font-family: 'ThisAppeal';
-    outline: 2.5px solid rgb(0, 0, 0);
-    outline-offset: 0px;
-    margin: 10px;
-    left: 1%;
-    top: 1%;
-    position: fixed;
-
-}
-
-.parent{
+/* 4. LAYOUT & CONTAINERS */
+.parent, .image-row {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     overflow: hidden;
     flex-wrap: wrap;
+}
+
+.image-row {
+    padding: 50px;
+    gap: 20px; /* Specific override for row gap */
+}
+
+/* 5. POSITIONING & UTILITIES */
+.corner{
+    width: 13vw;
+    height: auto;
+    position: absolute;
+}
+
+.top-left{
+    top: 1vw;
+    left:10vh;
+    rotate: -15deg;
+}
+
+.top-right{
+    top: 1vw;
+    right: 10vh;
+    rotate: 15deg;
 }
 
 .center{
@@ -106,29 +93,21 @@ button:hover{
     transform: translateX(-50%);
 }
 
-img{
-    width: 250px;
-    height: 250px;
+.button-small{
+    width: 150px;
+    height: 50px;
+    background: rgb(137, 69, 80);
+    color:azure;
+    font-size: 30px;
+    font-family: 'ThisAppeal';
+    outline: 2.5px solid rgb(0, 0, 0);
+    left: 1%;
+    top: 1%;
+    position: fixed;
+    z-index: 1;
 }
 
-.large{
-    transition: transform ease 0.3s;
-}
-
-.large:hover{
-    transform: scale(1.4);
-}
-
-.image-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    overflow: hidden;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-
+/* 6. INTERACTION & ANIMATION */
 #cursor-follower{
   position: fixed;
   width: 70px; 
@@ -138,6 +117,28 @@ img{
   z-index: 9999;
 }
 
-*{
-    cursor: none;
+.hover:hover{
+    color: rgb(244, 103, 127);
+}
+
+button:hover{
+    color: rgb(137, 69, 80);
+    background: azure;
+    outline: 0.1em solid rgb(0, 0, 0);
+}
+
+.squishy{
+    transition: transform 0.5s;
+}
+
+.squishy:hover{
+    transform: scaleY(0.65);
+}
+
+.large{
+    transition: transform ease 0.3s;
+}
+
+.large:hover{
+    transform: scale(1.4);
 }
