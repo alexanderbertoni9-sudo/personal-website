@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Milkyway';
-  src: url('assets/fonts/Milkyway DEMO.ttf');
+  src: url('personal-website/assets/fonts/MilkywayDEMO.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ThisAppeal';
-  src: url('assets/fonts/ThisAppeal-FreeDemo.ttf');
+  src: url('personal-website/assets/fonts/ThisAppeal-FreeDemo.ttf');
   font-weight: normal;
   font-style: normal;
 }
