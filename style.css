@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Milkyway';
-  src: url('../assets/fonts/Milkyway DEMO.ttf');
+  src: url('assets/fonts/Milkyway DEMO.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ThisAppeal';
-  src: url('../assets/fonts/ThisAppeal-FreeDemo.ttf');
+  src: url('assets/fonts/ThisAppeal-FreeDemo.ttf');
   font-weight: normal;
   font-style: normal;
 }
@@ -81,9 +81,9 @@ button:hover{
     outline: 2.5px solid rgb(0, 0, 0);
     outline-offset: 0px;
     margin: 10px;
-    left:10%;
-    top: 5%;
-    position: relative;
+    left: 1%;
+    top: 1%;
+    position: fixed;
 
 }
 
