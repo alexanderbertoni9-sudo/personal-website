@@ -1,9 +1,13 @@
-const img = document.getElementById("cursor-follower");
+const cursor = document.getElementById("cursor-follower");
+
+const pointer = "assets/img/cursor.png";
+const grab_hover = "assets/img/cursor-alt.png";
+
 
 //Make cursor move
 document.addEventListener("mousemove", function (e) {
-    img.style.left = e.clientX + "px";
-    img.style.top = e.clientY + "px";
+    cursor.style.left = e.clientX + "px";
+    cursor.style.top = e.clientY + "px";
 });
 
 // Change on hover over buttons 
@@ -12,10 +16,22 @@ const buttons = document.querySelectorAll("button");
 
 buttons.forEach(btn => {
     btn.addEventListener("mouseenter", () => {
-        img.src = "assets/img/cursor-alt.png";
+        cursor.src = grab_hover;
     });
 
     btn.addEventListener("mouseleave", () => {
-        img.src = "assets/img/cursor.png";
+        cursor.src = pointer;
+    });
+});
+
+const img = document.querySelectorAll("img")
+
+img.forEach(img => {
+    img.addEventListener("mouseenter", () => {
+        cursor.src = grab_hover;
+    });
+
+    img.addEventListener("mouseleave", () => {
+        cursor.src = pointer;
     });
 });
