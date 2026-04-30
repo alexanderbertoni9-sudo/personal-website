@@ -83,10 +83,12 @@ img{
     flex-direction: row;
     justify-content: left;
     align-content: flex-start;
-    background-color: #db5abb;
-    margin: 2em;
-    padding: 0.5em;
-    gap: 2em;
+    
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 5vw;
+    padding: 1em;
+    gap: 3em;
 }
 
 /* 5. POSITIONING & UTILITIES */
@@ -122,16 +124,6 @@ img{
     transform: translateX(-50%);
 }
 
-button-large{
-    width: 350px;
-    height: 350px;
-    background: rgb(137, 69, 80);
-    color:azure;
-    font-size: 8em;
-    font-family: 'ThisAppeal';
-    border: 2px solid #FFDBE5;
-}
-
 .button-small{
     width: 150px;
     height: 50px;
@@ -143,12 +135,44 @@ button-large{
 .openWebsite{
     width: 200px;
     height: 75px; 
-    background: #E27396;
-    color: #FFDBE5;
+
     font-size: 30px;
     font-family: 'Milkyway';
     border: 2px solid #FFDBE5;
 }
+
+.green{
+    background-color: #6D9F71;
+}
+
+.pink{
+    background-color: #E27396;
+}
+
+.green-button{
+    background: #337357;
+    color: #84c189;
+    border: 2px solid #204937;
+}
+
+.green-button:hover{
+    color: #337357;
+    background: #84c189;
+    border: 2px solid #204937;
+}
+
+.pink-button{
+    background: #E27396;
+    color: #FFDBE5;
+    border: 2px solid #9b4e66;
+}
+
+.pink-button:hover{
+    color: #E27396;
+    background: #FFDBE5;
+    border: 2px solid #fde9ef;
+}
+
 .top-left-button{
     left: 1%;
     top: 1%;
@@ -181,6 +205,8 @@ button-large{
 
 .img-side{
     justify-content: flex-end;
+    height:auto;
+    width: auto;
 }
 
 .below{
