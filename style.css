@@ -9,6 +9,12 @@
   src: url('./assets/fonts/ThisAppeal-FreeDemo.ttf');
 }
 
+@font-face {
+  font-family: 'RetroFloral';
+  src: url('assets/fonts/RetroFloral.otf');
+}
+
+
 /* 2. GLOBAL & BODY SETTINGS */
 *{
     cursor: none; /* Applied to everything */
@@ -16,7 +22,8 @@
 
 body{
     background-color: pink;
-    margin: 0; 
+    margin: 0;
+    font-family: 'RetroFloral';
 }
 
 /* 3. ELEMENT STYLES (Base Tags) */
@@ -45,6 +52,7 @@ img{
     height: 250px;
 }
 
+
 /* 4. LAYOUT & CONTAINERS */
 .parent, .image-row {
     display: flex;
@@ -58,6 +66,13 @@ img{
 .image-row {
     padding: 50px;
     gap: 20px; /* Specific override for row gap */
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-content: flex-start;
 }
 
 /* 5. POSITIONING & UTILITIES */
