@@ -84,8 +84,8 @@ img{
     justify-content: left;
     align-content: flex-start;
     
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-bottom: 5vw;
     padding: 1em;
     gap: 3em;
@@ -170,7 +170,7 @@ img{
 .pink-button:hover{
     color: #E27396;
     background: #FFDBE5;
-    border: 2px solid #fde9ef;
+    border: 2px solid #a3526c;
 }
 
 .top-left-button{
