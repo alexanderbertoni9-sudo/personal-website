@@ -21,7 +21,7 @@
 }
 
 body{
-    background-color: pink;
+    background-color: #EA9AB2;
     margin: 0;
     font-family: 'Milkyway';
 }
@@ -51,8 +51,8 @@ p{
 button{
     width: 350px;
     height: 350px;
-    background: rgb(137, 69, 80);
-    color:azure;
+    background: #E27396;
+    color: #FFDBE5;
     font-size: 8em;
     font-family: 'ThisAppeal';
 }
@@ -129,43 +129,47 @@ button-large{
     color:azure;
     font-size: 8em;
     font-family: 'ThisAppeal';
+    border: 2px solid #FFDBE5;
 }
 
 .button-small{
     width: 150px;
     height: 50px;
-    background: rgb(137, 69, 80);
-    color:azure;
     font-size: 30px;
     font-family: 'ThisAppeal';
-    outline: 2.5px solid rgb(0, 0, 0);
     position: fixed;
-    
 }
 
 .openWebsite{
-    width: 150px;
-    height: 50px; 
-    background: rgb(137, 69, 80);
-    color:azure;
+    width: 200px;
+    height: 75px; 
+    background: #E27396;
+    color: #FFDBE5;
     font-size: 30px;
-    font-family: 'ThisAppeal';
-    outline: 0px;
+    font-family: 'Milkyway';
+    border: 2px solid #FFDBE5;
 }
 .top-left-button{
     left: 1%;
     top: 1%;
     z-index: 1;
+    border: 2px solid #FFDBE5;
 }
 
 .top-right-button{
     right: 1%;
     top: 1%;
     z-index: 1;
+    border: 2px solid #337357;
 }
 
 .bg-cyan{
     background: #2ed1ab;
+}
+
+.bg-cyan:hover{
+    background: #337357;
+    color: #2ed1ab;
 }
 
 .text-side{
@@ -183,6 +187,7 @@ button-large{
     font-family: 'RetroFloral';
     margin-top: 25px;
 }
+
 /* 6. INTERACTION & ANIMATION */
 #cursor-follower{
   position: fixed;
@@ -198,9 +203,9 @@ button-large{
 }
 
 button:hover{
-    color: rgb(137, 69, 80);
-    background: azure;
-    outline: 0.01em solid rgb(0, 0, 0);
+    color: #E27396;
+    background: #FFDBE5;
+    border: 0.1em solid #E27396;
 }
 
 .squishy{
