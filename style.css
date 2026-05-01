@@ -214,6 +214,22 @@ img{
     margin-top: 25px;
 }
 
+.ribbion{
+    position: fixed;
+    height: 75vh;
+    width: 5.5vw;
+}
+
+.left-ribbion{
+    top: 10vh;
+    left: 2.3vw;
+}
+
+.right-ribbion{
+    top: 10vh;
+    right: 2.3vw;
+}
+
 /* 6. INTERACTION & ANIMATION */
 #cursor-follower{
   position: fixed;
