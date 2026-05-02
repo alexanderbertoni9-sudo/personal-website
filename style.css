@@ -230,6 +230,27 @@ img{
     right: 2.3vw;
 }
 
+.infoText{
+    font-size: 30px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: 'RetroFloral';
+}
+
+.lulu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5vw;
+    gap: 2vw
+}
+
+.luluImg{
+    height: 500px;
+    width: auto;
+}
+
 /* 6. INTERACTION & ANIMATION */
 #cursor-follower{
   position: fixed;
